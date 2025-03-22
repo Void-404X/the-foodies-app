@@ -17,11 +17,9 @@
   padding: 0;
   display: flex;
   gap: 1.5rem;
-  /* font-family: 'Montserrat', sans-serif; */
   font-size: 1.25rem;
 }
 
-<<<<<<< HEAD
 .nav a {
   text-decoration: none;
   color: #ddd6cb;
@@ -45,9 +43,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-=======
-
->>>>>>> 67bd09c (Add navbar)
 
 .logo {
   display: flex;
@@ -57,11 +52,7 @@
   text-decoration: none;
   color: #ddd6cb;
   font-weight: bold;
-<<<<<<< HEAD
-  font-family: 'Montserrat', sans-serif;
-=======
   font-family: "Montserrat", sans-serif;
->>>>>>> 67bd09c (Add navbar)
   letter-spacing: 0.15rem;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -72,8 +63,4 @@
   height: 5rem;
   object-fit: contain;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 67bd09c (Add navbar)

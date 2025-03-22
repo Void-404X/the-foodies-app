@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-export default function MealsCommunity(params) {
-  return <h1>Meals Community</h1>;
-}
-=======
 import Image from 'next/image';
 
 import mealIcon from '@/assets/icons/meal.png';
@@ -43,4 +38,3 @@ export default function CommunityPage() {
     </>
   );
 }
->>>>>>> 67bd09c (Add navbar)

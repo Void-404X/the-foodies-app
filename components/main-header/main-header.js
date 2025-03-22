@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-
-=======
 "use client";
 
 import React from "react";
@@ -11,31 +5,11 @@ import Link from "next/link";
 import Image from "next/image";
 import MainHeaderBackground from "./main-header.background";
 import NavLink from "./nav-link";
->>>>>>> 67bd09c (Add navbar)
 import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
 
 const MainHeader = () => {
   return (
-<<<<<<< HEAD
-    <header className={classes.header}>
-      <Link className={classes.logo} href="/">
-        <Image src={logoImg} alt="A plate with food on it" />
-        NextLevel Food
-      </Link>
-
-      <nav className={classes.nav}>
-        <ul>
-          <li>
-            <Link href="/meals">Browse Meals</Link>
-          </li>
-          <li>
-            <Link href="/community">Foodies Community</Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-=======
     <>
       <MainHeaderBackground />
       <header className={classes.header}>
@@ -56,7 +30,6 @@ const MainHeader = () => {
         </nav>
       </header>
     </>
->>>>>>> 67bd09c (Add navbar)
   );
 };
 
